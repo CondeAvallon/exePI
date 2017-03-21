@@ -11,13 +11,13 @@ public class ExePI {
         //entradas
         Scanner console = new Scanner(System.in);
 
-        System.out.println("Digite o valor de x1: ");
+        System.out.println("Digite o Valor de x1: ");
         double x1 = Double.parseDouble(console.nextLine());
 
-        System.out.println("Digite o valor de x2: ");
+        System.out.println("Digite o Valor de x2: ");
         double x2 = Double.parseDouble(console.nextLine());
 
-        System.out.println("Digite o valor de c: ");
+        System.out.println("Digite o Valor de c: ");
         double c = Double.parseDouble(console.nextLine());
 
         //processamento
