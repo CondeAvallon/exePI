@@ -12,10 +12,10 @@ public class ExePI {
         Scanner console = new Scanner(System.in);
 
         System.out.println("Digite o valor de x1: ");
-        double x1 = console.nextDouble();
+        double x1 = Double.parseDouble(console.nextLine());
 
         System.out.println("Digite o valor de x2: ");
-        double x2 = console.nextDouble();
+        double x2 = Double.parseDouble(console.nextLine());
 
         System.out.println("Digite o valor de c: ");
         double c = Double.parseDouble(console.nextLine());
